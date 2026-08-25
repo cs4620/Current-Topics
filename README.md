@@ -27,7 +27,7 @@ These are the topics we are going to cover in class each day. Links to [example 
 - You can see example of this in a video that shows [meshes in Substance 3D Painter demo reel](https://www.youtube.com/watch?v=IOe154tJSQA) (up to :19)
 
 ## 👩‍💻Code Together: Create something in world space
-- ::Video:: See the [city in Inception](https://www.youtube.com/watch?v=YoHD9XEInc0) (Start around 2:00)
+- ::Video:: See the [city in Inception](https://www.youtube.com/watch?v=YoHD9XEInc0) (Start around 2:00) or [SpiderMan: Brand New Day Trailer](https://www.youtube.com/watch?v=MqE5ZIU3Ao0)
 - 🏃‍♂️Draw a city in Blender using cubes in world space.
 - 🏀 Translate/Scale/Rotate
 - 💡 x/y/z -> r/g/b
