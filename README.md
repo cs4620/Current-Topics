@@ -1,7 +1,7 @@
 # CS 4620/8626 - Spring 2026 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
-
+https://www.theforce.net/swtc/Pix/books/egvv/tief-eg1.gif
 
 # Day 01 - January 13 - World Space [Blender] (🧑‍🏫Lecture 1)
 
