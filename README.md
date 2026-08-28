@@ -2,8 +2,10 @@
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
 # Day 02 - August 27 - Model Space [Blender] (🧑‍🏫Lecture 2)
-
 ![Game Loop Banner Image](support/clay.jpg)
+
+## 📺 Video Overview
+- You can see a video overview about [the basics on modeling, on YouTube](https://youtu.be/eEaA0L_JqOM)
 
 ## 📢Announcements
 
@@ -56,9 +58,10 @@ These are the topics we are going to cover in class each day. Links to [example 
   https://www.youtube.com/watch?v=ItY5chvVZoA -->
 
 ## 💡New Idea: Fundamental problem of graphics
-- Avagadro’s number
+- Avagadro’s number tells us the number of particles in a small amount of matter. Think of it as the number of molecules in a drop of water.
+- This number is so big, that all the computers in the world couldn't simulate all those molecules in realtime.
 - We can never simulate at first principles, therefore everything has to be a simplification
-- You can see example of this in a video that shows [meshes in Substance 3D Painter demo reel](https://www.youtube.com/watch?v=IOe154tJSQA) (up to :19)
+<!-- - You can see example of this in a video that shows [meshes in Substance 3D Painter demo reel](https://www.youtube.com/watch?v=IOe154tJSQA) (up to :19) -->
 
 ## 👩‍💻Code Together: Create something in world space
 - ::Video:: See the [city in Inception](https://www.youtube.com/watch?v=YoHD9XEInc0) (Start around 2:00) or [SpiderMan: Brand New Day Trailer](https://www.youtube.com/watch?v=MqE5ZIU3Ao0)
@@ -78,8 +81,10 @@ These are the topics we are going to cover in class each day. Links to [example 
 - What you can do in [Blender timelapse](https://www.youtube.com/watch?v=8VRtkdRPnos)
 
 ## 💡New Idea: Major Translations
+- Everything we do in Blender involves translating, scaling, and rotating
 -  How could you translate/scale/rotate in code?
--  Homogenous coordinates
+-  We move to homogenous coordinates and then use a set of 4x4 matrices.
+   - You can read more about [homogenous coordinates on Wikipedia](https://en.wikipedia.org/wiki/Homogeneous_coordinates#Use_in_computer_graphics_and_computer_vision).
 -  Major Affine Transformation Matrices
    -  Translate:
       -  $`\begin{bmatrix}0 & 0 & 0 & T_x\\0 & 0 & 0 & T_y\\0 & 0 & 0 & T_z\\0 & 0 & 0 & 1 \\\end{bmatrix}`$
