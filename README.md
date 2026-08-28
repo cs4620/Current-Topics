@@ -1,9 +1,43 @@
 # CS 4620/8626 - Spring 2026 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
-https://www.theforce.net/swtc/Pix/books/egvv/tief-eg1.gif
+# Day 02 - September 27 - Model Space [Blender] (🧑‍🏫Lecture 2)
 
-# Day 01 - January 13 - World Space [Blender] (🧑‍🏫Lecture 1)
+![Game Loop Banner Image](support/clay.jpg)
+
+## 📢Announcements
+
+## 🖼️Activity: Review the Syllabus 
+
+## 💡New Idea: Editing Content in Blender in Model Space
+- Content in Blender in represented by a combination of:
+  - Vertex, a vector in 3D space
+  - Edge, a point of vertices
+  - Face, a set of edges 
+
+## 🌎Historical Context: Review Original Star Wars History
+- [Opening sequence in Star Wars: A New Hope](https://youtu.be/tRX4JFWffkM?si=G1V2hkSZJdOxqOL_)
+
+## 🖼️Activity:  Use reference images to model a Star Destroyer
+- Start with [schematic images of a Star Destroyer](https://t.ly/hzJvW) or a [Tie Fighter](https://t.ly/R_MNI)
+- Idea: X-ray Mode
+- Idea: Model space
+- Idea: Reference images
+- Idea: Extrude
+- Idea: Mirror
+  <!-- ::Video:: What you can do in Blender timelapse: https://www.youtube.com/watch?v=8VRtkdRPnos -->
+
+## 💡New Idea: Cross Products
+- Blender knows how to do an extrude by using a cross product
+- $a\times b$ gives a vector that is orthogonal to $a$ and $b$
+- $x = a_y \cdot b_z - a_z \cdot b_y$
+- $y = a_z \cdot b_x - a_x \cdot b_z$
+- $z = a_x \cdot b_y - a_y \cdot b_x$
+
+
+
+
+# Day 01 - September 25 - World Space [Blender] (🧑‍🏫Lecture 1)
 
 ![Banner Image](support/globe.jpg)
 
