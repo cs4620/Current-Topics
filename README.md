@@ -1,7 +1,7 @@
-# CS 4620/8626 - Spring 2026 - Topics
+# CS 4620/8626 - Fall 2027 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
-# Day 02 - September 27 - Model Space [Blender] (🧑‍🏫Lecture 2)
+# Day 02 - August 27 - Model Space [Blender] (🧑‍🏫Lecture 2)
 
 ![Game Loop Banner Image](support/clay.jpg)
 
@@ -37,7 +37,7 @@ These are the topics we are going to cover in class each day. Links to [example 
 
 
 
-# Day 01 - September 25 - World Space [Blender] (🧑‍🏫Lecture 1)
+# Day 01 - August 25 - World Space [Blender] (🧑‍🏫Lecture 1)
 
 ![Banner Image](support/globe.jpg)
 
