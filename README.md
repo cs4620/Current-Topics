@@ -1,6 +1,11 @@
 # CS 4620/8626 - Fall 2027 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
+
+https://www.youtube.com/watch?v=vjDry9Q0P4Q
+https://www.youtube.com/watch?v=YdHTlUGN1zw
+https://www.youtube.com/watch?v=BdHCp62jC84
+
 # Day 02 - August 27 - Model Space [Blender] (🧑‍🏫Lecture 2)
 ![Game Loop Banner Image](support/clay.jpg)
 
