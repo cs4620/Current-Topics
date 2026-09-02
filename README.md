@@ -1,6 +1,8 @@
 # CS 4620/8626 - Fall 2027 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
+
+https://thetruesize.com/
 https://polygonalcube.itch.io/barycentric-coordinates-visualization
 
 https://www.youtube.com/watch?v=vjDry9Q0P4Q
