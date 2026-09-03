@@ -1,6 +1,32 @@
 # CS 4620/8626 - Fall 2027 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
+# Barycentric
+
+$(6,0,0)\times(0,6,0)$
+$x=0-0$
+$y=0-0$
+$z=36-0=36$
+
+Length=$\sqrt(36^2)=36$
+
+Triangle Area = $18$
+
+If $P=(2,2,0)$, then:
+
+$u=(P-B)\times (P-C)/36$
+
+$v=(P-A)\times (P-C)/36$
+
+$w=1-u-v$
+
+$u=((-4,2,0)\times (2, -4,0))/36$
+
+$v=((2, 2, 0)\times (2, -4,0))/36$
+
+$w=1-u-v$
+
+
 
 https://thetruesize.com/
 https://polygonalcube.itch.io/barycentric-coordinates-visualization
