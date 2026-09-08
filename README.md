@@ -84,6 +84,13 @@ Barycentric coordinates
 # Day 03 - September 01 - Rendering [Blender] (🧑‍🏫Lecture 3)
 ![Shark Image](support/Shark.jpg)
 
+# Traditional Rendering
+- Look at how Disney originally rendered their animations here: https://www.youtube.com/watch?v=vjDry9Q0P4Q
+- Then look at how they improved their rendering here: https://www.youtube.com/watch?v=YdHTlUGN1zw
+- What limitations did the first approach have? What limitations did the second approach have? If a rendering approach cannot theoretically produce the same results as a perfect photograph, then the difference between what it can do and perfection is called bias.
+- Rasterizers are biased renderers because they have theoretical limits to what they can do
+- Ray tracers are unbiased because they do not have these theoretical limits.
+
 
 > [!Tip] History Moment
 >
@@ -132,11 +139,7 @@ Barycentric coordinates
 - The surface is not reflective with EEVEE but is reflective with Cycles
 
 
-https://www.youtube.com/watch?v=vjDry9Q0P4Q
 
-https://www.youtube.com/watch?v=YdHTlUGN1zw
-
-https://www.youtube.com/watch?v=BdHCp62jC84
 
 
 <!-- # 💡New Idea: EXR Images
@@ -154,7 +157,11 @@ https://www.youtube.com/watch?v=BdHCp62jC84
 
 # 👩‍💻Activity: Compositing
 - Save an EXR image
-- In Blender's compositor, alter the impact of lights after a render. -->
+- In Blender's compositor, alter the impact of lights after a render. 
+
+Watch this video and talk about how green screens are removed and images composited: 
+https://www.youtube.com/watch?v=BdHCp62jC84
+-->
 
 <br/><br/>
 ---
