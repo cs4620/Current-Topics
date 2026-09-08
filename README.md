@@ -1,6 +1,45 @@
 # CS 4620/8626 - Fall 2027 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
+
+# Day 04 - September 03 - Shading 1 [Blender] (🧑‍🏫Lecture 4)
+![Banner Image](support/present.jpg)
+
+<!-- ## 🔙Review
+- Consider vector A (1, 0, 0) and vector B(1, 1, 0)
+- What is A cross B?
+- What is A dot B?
+- What is the length of A?
+- What is the length of B? -->
+
+
+## Texturing
+Wrapping paper
+Activity: Wrapping paper
+
+Wrapping maps
+Activity, Reviewing mapping projections
+
+Look at the Wolfenstein 3D
+
+## Blender UV Activity
+- Look at the UV maps for a sphere
+- UV map projections
+- Save UV map outlines for space ship
+
+<!-- ## Different renderers
+  
+## Math Starter
+- Normalize vectors
+- Interpolate normals across a triangle
+
+## Interpolate normal
+Barycentric coordinates
+- See calculator -->
+
+## Actual texture maps
+- See head texture map
+
 # Barycentric
 
 $(6,0,0)\times(0,6,0)$
@@ -26,14 +65,101 @@ $v=((2, 2, 0)\times (2, -4,0))/36$
 
 $w=1-u-v$
 
-
-
 https://thetruesize.com/
+
 https://polygonalcube.itch.io/barycentric-coordinates-visualization
 
+
+## Professional software
+Substance 3D
+Activity: Review Substance 3D demoreel/website
+https://www.youtube.com/watch?v=TzMHqw0Qp-s
+
+<!-- ## Normal maps -->
+
+
+
+
+# Day 03 - September 01 - Rendering [Blender] (🧑‍🏫Lecture 3)
+![Shark Image](support/Shark.jpg)
+
+
+> [!Tip] History Moment
+>
+> Here is a look at how games on PC and console diverged and remerged around 3D Graphics
+> - 1992 on PC: [Wolfenstein 3D](https://www.youtube.com/watch?v=MnjXHOApVIc)
+> - 1992 on console: [Super Mario Kart](https://www.youtube.com/watch?v=v0cOFCJFgrk)
+>   
+> - 1993 on console: [Aladdin](https://www.youtube.com/watch?v=SNcSYdXtufI)
+> - 1993 on PC: [Doom](https://www.youtube.com/watch?v=Q4GiCg_m8wA)
+> 
+> - 1996 on console: [Mario 64](https://www.youtube.com/watch?v=Z3G4t6i5PAc)
+> - 1996 on PC: [Quake](https://www.youtube.com/watch?v=Ir-6wFAgSSI&list=PL_zCHIGF5VNNKQ_NIwb3SOTZh0Fyqn2Oi)
+> 
+> - 1997 on PC: [Quake 2](https://www.youtube.com/watch?v=-g2t8m54Ylw)
+> - 1997 on console: [Gran Turismo](https://www.youtube.com/watch?v=2Ks1QpLT-r8&list=PLlk-blXREIdhE86QN4DuwqkMijOFi_Cot)
+
+# 💡New Idea: Rasterizer
+- Triangle-based rendering
+- Biased rendering
+- Called EEVEE in Blender
+- More often associate with the GPU
+
+
+# 💡New Idea: Rasterizing Render Pipeline
+- Rasterizers follow this pipeline when rendering (at a high level)
+  - Vertex Shader
+  - Rasterizer
+  - Z-Buffer
+  - Fragment Shader
+
+# 💡New Idea: Ray Tracer
+- Light-ray based
+- Unbiased rendering
+- Called Cycles in Blender
+- More often associate with the CPU
+
+
+# 💡New Idea: Ray Tracer Pipeline
+- Forward Ray Tracing
+  - A ray tracer sends light rays from the camera into the scene
+  - When a light ray collides with a surface, it calculates how much light that surface reflects
+
+
+# 👩‍💻Activity: Rasterizing v Ray Tracing 
+- Create a reflective surface is blender using a glossy material type
+- The surface is not reflective with EEVEE but is reflective with Cycles
+
+
 https://www.youtube.com/watch?v=vjDry9Q0P4Q
+
 https://www.youtube.com/watch?v=YdHTlUGN1zw
+
 https://www.youtube.com/watch?v=BdHCp62jC84
+
+
+<!-- # 💡New Idea: EXR Images
+- When we render, we can have Blender save more information than just the final image
+- Among other things, it can save
+  - Individual light groups
+  - Normals
+  - Depth
+- When we want to save all this data, we use a special format called EXR
+
+# 💡New Idea: Compositing
+- Compositing is the stage of computer graphics after rendering and before the final product
+- Compositing allows us to alter render results without having to re-render.
+- The most popular compositing software right now is called [Nuke](https://www.foundry.com/products/nuke-family/nuke).
+
+# 👩‍💻Activity: Compositing
+- Save an EXR image
+- In Blender's compositor, alter the impact of lights after a render. -->
+
+<br/><br/>
+---
+---
+
+
 
 # Day 02 - August 27 - Model Space [Blender] (🧑‍🏫Lecture 2)
 ![Game Loop Banner Image](support/clay.jpg)
