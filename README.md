@@ -2,6 +2,84 @@
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
 
+# Day 06 - September 15  (👟Sprint 1)
+
+
+## 💡New Idea: Scripting shaders in Blender
+- Introduction of Open Shading Language (Amazing Spider Man)
+- Example shaders
+```c
+shader test_shader(
+    input vector norm,
+    output color out_color = color(0,0,0)
+    ){
+    ector light_direction = vector(1/sqrt(2), 1/sqrt(2), 0);
+    float intensity = dot(light_direction, norm);
+    out_color = intensity * color(1,0,0);
+}
+```
+
+
+# Day 05 - September 10 - Shading 2 [Blender] (🧑‍🏫Lecture 5)
+![Banner Image](support/shadow.jpg)
+
+
+
+## 💡New Idea: Lighting is import to story telling
+  - Look at different clips from videos. How is lighting use to tell a story or set a mood?
+
+
+## 💡New Idea: Ambient Lighting
+- Light is always bouncing around us. Ambient lighting is a 'fudge' term that tries to capture this reflected light.
+
+## 👩‍💻Activity: Ambient Light
+- Adjust the ambient lighting in Blender
+
+> [!Tip] History Moment
+> Early FPS games only used ambient lighting. For example look at Wolfenstein 3D, the predecessor to Doom. 
+
+## 💡New Idea: Diffuse Lighting
+- How does light reflect at an atomic level?
+- How does the angle to a light affect the amount of diffuse lighting?
+  - Talk about sun burns and seasons
+- The difference between a surface's normal and the direction to the light source determine the amount of illumination
+  - The normal of a surface is the vector that is perpendicular to the tangent of the surface
+- The difference between normals can be found by calculating the dot product between them.
+
+## 👩‍💻Activity: Add Diffuse Lighting in Blender
+- Look at different light types
+  - Spot
+  - Sun
+  - Point
+  - Area
+    - Why do area lights cause noise in the rendered image?
+
+
+
+## How to add color to objects in blender
+- Base colors (diffuse)
+- Specular highlights (roughness)
+
+## Shading in Blender
+- Different shading views in main view
+- Changing ambient light in the world tab
+- Adding a material to a mesh
+
+## Shader tab in Blender
+- Visual scripting
+- Pins and wires
+- Add ambient, diffuse, and specular (glossy) shaders
+- Example of a diffuse shader in Blender
+- ![](./images/Shader%20nodes%201.png)
+- ![](./images/Shader%20nodes%202.png)
+
+## Normals on Objects
+  - Different kinds of shading in Blender (smooth v flat)
+  - Normals as an attribute of vertices gives us a way to hint at the curvature of a surface.
+
+
+
+
 # Day 04 - September 03 - Shading 1 [Blender] (🧑‍🏫Lecture 4)
 ![Banner Image](support/present.jpg)
 
