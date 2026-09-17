@@ -3,28 +3,20 @@ These are the topics we are going to cover in class each day. Links to [example 
 
 
 # Day 07 - September 17 - Animation of Rigid Bodies [Blender] (🧑‍🏫Lecture 6)
+![Street at Night Image](support/night_street.jpg)
 
-https://www.youtube.com/watch?v=4R2UFlSc4mI
 
-https://www.youtube.com/watch?v=GAHW7TF4Tyo
+## 🏛️Module: [The Last Star Fighter](./modules/The%20Last%20Star%20Fighter.md)
 
+## 🏛️Module: [Disney and Animation](./modules/Disney%20and%20Animation.md)
+
+## 👩‍💻Module: [Rigid Body Animation - Basics](./modules/Rigid%20Body%20Animation%20-%20Basics.md)
+
+## 👩‍💻Module: [Rigid Body Animation - Advanced](./modules/Rigid%20Body%20Animation%20-%20Advanced.md)
 
 # Day 06 - September 15  (👟Sprint 1)
 
-
-## 💡New Idea: Scripting shaders in Blender
-- Introduction of Open Shading Language (Amazing Spider Man)
-- Example shaders
-```c
-shader test_shader(
-    input vector norm,
-    output color out_color = color(0,0,0)
-    ){
-    ector light_direction = vector(1/sqrt(2), 1/sqrt(2), 0);
-    float intensity = dot(light_direction, norm);
-    out_color = intensity * color(1,0,0);
-}
-```
+## 🏛️👩‍💻Module: [Open Shader Language](./modules/Open%20Shader%20Language.md)
 
 
 # Day 05 - September 10 - Shading 2 [Blender] (🧑‍🏫Lecture 5)
@@ -32,7 +24,7 @@ shader test_shader(
 
 
 
-## 💡New Idea: Lighting is import to story telling
+## 💡New Idea: Lighting is important to story telling
   - Look at different clips from videos. How is lighting use to tell a story or set a mood?
 
 

@@ -1,0 +1,11 @@
+## History: Disney and animation
+- Disney Springs Frame from *Sleeping Beauty*: ![Disney Springs Frame from *Sleeping Beauty*](./images/DisneySpringsMaleficent.jpg)
+- Disney Springs Animators Picture: ![Disney Springs Animators Picture](./images/DisneySpringsArtists.jpg)
+- Pins
+  - *Pins* (also known as pegs or a peg bar) are physical metal or plastic studs attached to a light table and camera stand that fit into pre-punched holes in animation paper and acetate cels.
+- Dope sheet
+  - A *dope sheet* (short for exposure sheet or X-sheet) is a physical, printed grid on paper that serves as the step-by-step master plan for a scene, directing the camera operator and ink-and-paint team on how to assemble every frame.
+- Key frame
+  - A *keyframe* is a frame on an animation timeline that defines the starting, ending, or critical intermediate points of a transition by explicitly locking in an object's properties—such as position, rotation, scale, or vertex positions.
+- Tweeners/tweening
+  - *Tweening* (short for in-betweening) is the process of generating intermediate frames between two keyframes to create smooth, continuous motion or shape transformations.
