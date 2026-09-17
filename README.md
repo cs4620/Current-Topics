@@ -2,6 +2,13 @@
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
 
+# Day 07 - September 17 - Animation of Rigid Bodies [Blender] (🧑‍🏫Lecture 6)
+
+https://www.youtube.com/watch?v=4R2UFlSc4mI
+
+https://www.youtube.com/watch?v=GAHW7TF4Tyo
+
+
 # Day 06 - September 15  (👟Sprint 1)
 
 
