@@ -2,6 +2,16 @@
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
 
+# Day 08 - September 22  (👟Sprint 2)
+
+## 🏛️👩‍💻Module: [Normal Mapping](./modules/Normal%20Mapping.md)
+
+
+<br/><br/>
+---
+---
+
+
 # Day 07 - September 17 - Animation of Rigid Bodies [Blender] (🧑‍🏫Lecture 6)
 ![Street at Night Image](support/night_street.jpg)
 
@@ -14,10 +24,19 @@ These are the topics we are going to cover in class each day. Links to [example 
 
 ## 👩‍💻Module: [Rigid Body Animation - Advanced](./modules/Rigid%20Body%20Animation%20-%20Advanced.md)
 
+
+<br/><br/>
+---
+---
+
 # Day 06 - September 15  (👟Sprint 1)
 
 ## 🏛️👩‍💻Module: [Open Shader Language](./modules/Open%20Shader%20Language.md)
 
+
+<br/><br/>
+---
+---
 
 # Day 05 - September 10 - Shading 2 [Blender] (🧑‍🏫Lecture 5)
 ![Banner Image](support/shadow.jpg)
@@ -76,7 +95,9 @@ These are the topics we are going to cover in class each day. Links to [example 
   - Different kinds of shading in Blender (smooth v flat)
   - Normals as an attribute of vertices gives us a way to hint at the curvature of a surface.
 
-
+<br/><br/>
+---
+---
 
 
 # Day 04 - September 03 - Shading 1 [Blender] (🧑‍🏫Lecture 4)
@@ -155,7 +176,9 @@ Barycentric coordinates
 
 <!-- ## Normal maps -->
 
-
+<br/><br/>
+---
+---
 
 
 # Day 03 - September 01 - Rendering [Blender] (🧑‍🏫Lecture 3)
