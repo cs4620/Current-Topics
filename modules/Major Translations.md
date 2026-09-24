@@ -1,0 +1,21 @@
+## 💡New Idea: Major Translations
+- Everything we do in Blender involves translating, scaling, and rotating
+-  How could you translate/scale/rotate in code?
+-  We move to homogenous coordinates and then use a set of 4x4 matrices.
+   - You can read more about [homogenous coordinates on Wikipedia](https://en.wikipedia.org/wiki/Homogeneous_coordinates#Use_in_computer_graphics_and_computer_vision).
+-  Major Affine Transformation Matrices
+   -  Translate:
+      -  $`\begin{bmatrix}0 & 0 & 0 & T_x\\0 & 0 & 0 & T_y\\0 & 0 & 0 & T_z\\0 & 0 & 0 & 1 \\\end{bmatrix}`$
+   -  Scale:
+      -  $`\begin{bmatrix}S_x & 0 & 0 & 0\\ 0 & S_y & 0 & 0\\0 & 0 & S_z & 0\\0 & 0 & 0 & 1 \\\end{bmatrix}`$
+   -  Rotation:
+      -  Rotation based on this basic 2D rotation pattern:
+      -  $`\begin{bmatrix} cosine(\theta) & -sine(\theta) \\ sine(\theta) & cosine(\theta) \\\end{bmatrix}`$
+   -  Rotation about X:
+      -  $`\begin{bmatrix}1 & 0 & 0 & 0\\ 0 & cosine(\theta) & -sine(\theta) & 0\\0 & sine(\theta) & cosine(\theta) & 0\\0 & 0 & 0 & 1 \\\end{bmatrix}`$
+   -  Rotation about Y:
+      -  $`\begin{bmatrix}cosine(\theta) & 0 & sine(\theta) & 0\\ 0 & 1 & 0 & 0\\ -sine(\theta) & 0 & cosine(\theta) & 0\\0 & 0 & 0 & 1 \\\end{bmatrix}`$
+   -  Rotation about Z:
+      -  $`\begin{bmatrix}cosine(\theta) & -sine(\theta) & 0 & 0\\ sine(\theta) & cosine(\theta) & 0 & 0\\0 & 0 & 1 & 0\\0 & 0 & 0 & 1 \\\end{bmatrix}`$
+
+- You can show the matrix for a given object in Blender by pasting this into the Python console: `bpy.context.object.matrix_world`
