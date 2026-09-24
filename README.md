@@ -2,7 +2,7 @@
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
 # Day 07 - September 17 - Animation of Soft Bodies [Blender] (🧑‍🏫Lecture 6)
-![Shark Image](support/Shark.jpg)
+![Shark Image](support/shark.jpg)
 
 ## 🏛️👩‍💻Module: [Rigging](./modules/Rigging.md)
 
@@ -97,7 +97,7 @@ Barycentric coordinates
 ## Actual texture maps
 - Look at the texture map of a head online
 
-## 🏛️Module: [Baycentric Coordinates](./modules/Barycentric%20Coordinates.md)
+## 🏛️Module: [Barycentric Coordinates](./modules/Barycentric%20Coordinates.md)
 
 
 
@@ -114,7 +114,7 @@ Barycentric coordinates
 
 
 # Day 03 - September 01 - Rendering [Blender] (🧑‍🏫Lecture 3)
-![Shark Image](support/Shark.jpg)
+![Shark Image](support/shark.jpg)
 
 ## 🏛️Module: [Disney History of Rendering](./modules/Disney%20History%20of%20Rendering.md)
 
