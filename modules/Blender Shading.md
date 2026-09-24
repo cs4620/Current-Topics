@@ -12,5 +12,5 @@
 - Pins and wires
 - Add ambient, diffuse, and specular (glossy) shaders
 - Example of a diffuse shader in Blender
-- ![](./images/Shader%20nodes%201.png)
-- ![](./images/Shader%20nodes%202.png)
+- ![](../images/Shader%20nodes%201.png)
+- ![](../images/Shader%20nodes%202.png)
