@@ -85,12 +85,12 @@ C:\mingw64
 
 Adding the `bin` folder to your PATH allows Windows to run `g++` from any terminal prompt.
 
-**Via Command Prompt (Quickest):**
+**Via PowerSHell (Quickest):**
 
-1. Open **Command Prompt** as Administrator.
+1. Open **PowerShell** as Administrator.
 2. Run the following command:
 ```cmd
-setx /M PATH "%PATH%;C:\mingw64\bin"
+[Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\mingw64\bin", "Machine")
 
 ```
 
