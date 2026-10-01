@@ -9,7 +9,7 @@
 - 💡 Apply changes
 - 💡 Move pivot
 - ⚠️ Laptops need to turn on emulation
-- A student provided me with these Blender Hokey references for [Windows](./support/Blender_5.2_Hotkey_Reference_Windows.pdf) and [Mac](./support/Blender_5.2_Hotkey_Reference_Mac.pdf)
+- A student provided me with these Blender Hokey references for [Windows](../banners/Blender_5.2_Hotkey_Reference_Windows.pdf) and [Mac](../banners/Blender_5.2_Hotkey_Reference_Mac.pdf)
 
 ## 💡New Idea: About Blender
 - Blender v Maya v 3DSMax (ZBrush, Cinema 4D)

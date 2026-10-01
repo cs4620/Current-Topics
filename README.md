@@ -2,7 +2,7 @@
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
 # Day 07 - September 17 - Animation of Soft Bodies [Blender] (🧑‍🏫Lecture 6)
-![Shark Image](support/shark.jpg)
+![Shark Image](banners/shark.jpg)
 
 ## 🏛️👩‍💻Module: [Rigging](./modules/Rigging.md)
 
@@ -21,7 +21,7 @@ These are the topics we are going to cover in class each day. Links to [example 
 
 
 # Day 07 - September 17 - Animation of Rigid Bodies [Blender] (🧑‍🏫Lecture 6)
-![Street at Night Image](support/night_street.jpg)
+![Street at Night Image](banners/night_street.jpg)
 
 
 ## 🏛️Module: [The Last Star Fighter](./modules/The%20Last%20Star%20Fighter.md)
@@ -47,7 +47,7 @@ These are the topics we are going to cover in class each day. Links to [example 
 ---
 
 # Day 05 - September 10 - Shading 2 [Blender] (🧑‍🏫Lecture 5)
-![Banner Image](support/shadow.jpg)
+![Banner Image](banners/shadow.jpg)
 
 
 
@@ -72,7 +72,7 @@ These are the topics we are going to cover in class each day. Links to [example 
 
 
 # Day 04 - September 03 - Shading 1 [Blender] (🧑‍🏫Lecture 4)
-![Banner Image](support/present.jpg)
+![Banner Image](banners/present.jpg)
 
 <!-- ## 🔙Review
 - Consider vector A (1, 0, 0) and vector B(1, 1, 0)
@@ -114,7 +114,7 @@ Barycentric coordinates
 
 
 # Day 03 - September 01 - Rendering [Blender] (🧑‍🏫Lecture 3)
-![Shark Image](support/shark.jpg)
+![Shark Image](banners/Diffuse%20(Gemini).jpg)
 
 ## 🏛️Module: [Disney History of Rendering](./modules/Disney%20History%20of%20Rendering.md)
 
@@ -165,7 +165,7 @@ https://www.youtube.com/watch?v=BdHCp62jC84
 
 
 # Day 02 - August 27 - Model Space [Blender] (🧑‍🏫Lecture 2)
-![Game Loop Banner Image](support/clay.jpg)
+![Game Loop Banner Image](banners/clay.jpg)
 
 ## 📺 Video Overview
 - You can see a video overview about [the basics on modeling, on YouTube](https://youtu.be/eEaA0L_JqOM)
@@ -182,7 +182,7 @@ https://www.youtube.com/watch?v=BdHCp62jC84
 
 # Day 01 - August 25 - World Space [Blender] (🧑‍🏫Lecture 1)
 
-![Banner Image](support/globe.jpg)
+![Banner Image](banners/globe.jpg)
 
 ## 🏛️Module: [Introduction to Computer Graphics](./modules/Introduction%20to%20Computer%20Graphics.md)
 
