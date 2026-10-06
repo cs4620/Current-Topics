@@ -1,13 +1,47 @@
 # CS 4620/8626 - Fall 2027 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
-# Day 07 - September 17 - Animation of Soft Bodies [Blender] (🧑‍🏫Lecture 6)
+# Day 12 - October 06  (👟Sprint 4)
+
+Review of animation actions and boolean operators
+
+
+<br/><br/>
+---
+---
+
+# Day 11 - October 01 - Introduction to C++ [Blender] (🧑‍🏫Lecture 6)
+
+
+## C++ Preparation
+- Please review the [compiler setup](./C++%20Compiler%20Setup.md) page to make sure you can run C++ on any devices you own.
+- Please review the [C++ Starting Examples](./C++Example.cpp) to make sure you understand the basics of the language.
+- You are also free to use any of the many high-quality C++ tutorials available online.
+
+<br/><br/>
+---
+---
+
+
+# Day 10 - September 29  (👟Sprint 3)
+
+
+
+<br/><br/>
+---
+---
+
+# Day 09 - September 24 - Animation of Soft Bodies [Blender] (🧑‍🏫Lecture 6)
 ![Shark Image](banners/shark.jpg)
 
 ## 🏛️👩‍💻Module: [Rigging](./modules/Rigging.md)
 
 ## 🏛️👩‍💻Module: [Inverse Kinematics](./modules/Inverse%20Kinematics.md)
 
+
+<br/><br/>
+---
+---
 
 
 # Day 08 - September 22  (👟Sprint 2)
