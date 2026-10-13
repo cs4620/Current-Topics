@@ -6,7 +6,28 @@ These are the topics we are going to cover in class each day. Links to [example 
 
 Review of modeling, animation, and rendering
 
-![Whiteboard](./whiteboard/day14/20261013_114631.jpg?width=100px)
+
+# Intro to Ray Tracing Math
+
+If there is an image that is $(w,h)$ in size, how do I know where in 3D to send a ray if I am ray tracing through pixel $(p_x, p_y)$? Assume the camera origin is at $(0, 0, -1)$ and the look at point is $(0, 0, 0)$. In this canonical view, the image we are rendering to lies in the $x,y$ plane. Note that for the image y is down and for our image plane y is up.
+
+Steps:
+- Convert the pixel to percentages
+- Convert range from $[0,1]$ to $[-1,1]$ by multiplying by 2 and subtracting 1
+- Flip the y coordinate by inverting $y$
+- Set 0 to 0.
+
+Once we have a destination target, we need a vector from the origin to that destination that is normalized (length 1).
+
+Steps:
+- Find the direction $destination - origin$.
+- Find the length of that resulting vector
+- Divide the $x$, $y$, and $z$ coordinates by that length.
+
+<img src="./whiteboard/day14/a.jpg" alt="Description" width="300">
+<img src="./whiteboard/day14/b.jpg" alt="Description" width="300">
+<img src="./whiteboard/day14/c.jpg" alt="Description" width="300">
+<img src="./whiteboard/day14/d.jpg" alt="Description" width="300">
 
 
 <br/><br/>
@@ -16,7 +37,7 @@ Review of modeling, animation, and rendering
 
 
 # Day 13 - October 08 - Ray Tracing: First Steps [Ray Tracing] (🧑‍🏫Lecture 9)
-<img src="./whiteboard/day14/20261013_114631.jpg" width="100"/>
+<img src="./banners/ray-tracing.png"/>
 
 ## 🏛️👩‍💻Module: [Introduction to C++](./modules/Introduction%20to%20C++.md)
 
