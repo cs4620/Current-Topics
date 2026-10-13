@@ -1,8 +1,22 @@
 # CS 4620/8626 - Fall 2027 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
+
+# Day 14 - October 13  (👟Sprint 4)
+
+Review of modeling, animation, and rendering
+
+![Whiteboard1](./whiteboard/day14/20261013_114631.jpg)
+
+
+<br/><br/>
+---
+---
+
+
+
 # Day 13 - October 08 - Ray Tracing: First Steps [Ray Tracing] (🧑‍🏫Lecture 9)
-![Ray Tracing](banners/ray-tracing.png)
+<img src="./whiteboard/day14/20261013_114631.jpg" width="100"/>
 
 
 
@@ -57,11 +71,6 @@ These are the topics we are going to cover in class each day. Links to [example 
 ---
 ---
 
-
-
-<br/><br/>
----
----
 
 
 
