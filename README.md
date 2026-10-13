@@ -6,7 +6,7 @@ These are the topics we are going to cover in class each day. Links to [example 
 
 Review of modeling, animation, and rendering
 
-![Whiteboard1](./whiteboard/day14/20261013_114631.jpg)
+![Whiteboard|100](./whiteboard/day14/20261013_114631.jpg)
 
 
 <br/><br/>
