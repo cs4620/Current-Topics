@@ -2,7 +2,19 @@
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
 
-# Day 14 - October 13  (👟Sprint 4)
+# Day 15 - October 15 - Ray Tracing: First Full Algorithm [Ray Tracing] (🧑‍🏫Lecture 10)
+
+
+## 🏛️👩‍💻Module: [Ray Triangle Collisions](./modules/Ray%20Triangle%20Collisions.md)
+
+<img src="./whiteboard/day15/a.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day15/b.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+
+<br/><br/>
+---
+
+
+# Day 14 - October 13  (👟Sprint 5)
 
 Review of modeling, animation, and rendering
 
@@ -24,10 +36,10 @@ Steps:
 - Find the length of that resulting vector
 - Divide the $x$, $y$, and $z$ coordinates by that length.
 
-<img src="./whiteboard/day14/a.jpg" alt="Description" width="300">
-<img src="./whiteboard/day14/b.jpg" alt="Description" width="300">
-<img src="./whiteboard/day14/c.jpg" alt="Description" width="300">
-<img src="./whiteboard/day14/d.jpg" alt="Description" width="300">
+<img src="./whiteboard/day14/a.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day14/b.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day14/c.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day14/d.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
 
 
 <br/><br/>
