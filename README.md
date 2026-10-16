@@ -3,7 +3,7 @@ These are the topics we are going to cover in class each day. Links to [example 
 
 
 # Day 15 - October 15 - Ray Tracing: First Full Algorithm [Ray Tracing] (🧑‍🏫Lecture 10)
-
+<img src="./banners/ray-tracing2.png"/>
 
 ## 🏛️👩‍💻Module: [Ray Triangle Collisions](./modules/Ray%20Triangle%20Collisions.md)
 
