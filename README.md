@@ -6,6 +6,12 @@ These are the topics we are going to cover in class each day. Links to [example 
 
 ## 🖼️Activity:
 - [Commentary of Ray Tracing in Pixar Films](https://www.youtube.com/watch?v=BWbYhW5PNdQ&t=139s)
+- [How did ray tracing change the visuals in Portal](https://www.youtube.com/watch?v=b8qZCqTzbdI&t=336s)
+
+<img src="./whiteboard/day16/a.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day16/b.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day16/c.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day16/d.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
 
 ## 🏛️👩‍💻Module: [C++ Classes in Files](./modules/C++%20Classes%20in%20Files.md)
 
