@@ -1,6 +1,35 @@
 # CS 4620/8626 - Fall 2027 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
+# Day 16 - October 22 - Ray Tracing: Multiple Triangle & OBJ Import [Ray Tracing] (🧑‍🏫Lecture 11)
+<img src="./banners/ray-tracing3.png"/>
+
+## 🖼️Activity:
+- [Commentary of Ray Tracing in Pixar Films](https://www.youtube.com/watch?v=BWbYhW5PNdQ&t=139s)
+
+## 🏛️👩‍💻Module: [C++ Classes in Files](./modules/C++%20Classes%20in%20Files.md)
+
+
+## Ray Tracing Multiple Triangles
+- Store a list (vector) of triangles to render
+- Track the closest `t` across all triangles.
+  - We calculated `t` early when we are finding the plane the triangle lies in. If this `t` is further away than the closest `t`, we can immediately stop calculating that triangle
+  - However, if the plane's `t` is closer than the closest `t`, don't update it under we are certain we are inside the triangle on that plane.
+- Ignore negative `t`s
+
+## 👩‍💻Code Together: Create Triangles and Meshes
+- A mesh has an array of triangles and a shader
+- A triangle has three Vector3s
+
+## 🏛️👩‍💻Module: [OBJ Export and Import](./modules/OBJ%20Export%20and%20Import.md)
+
+
+
+
+# October 20 - No Class, University Holiday
+<br/><br/>
+---
+---
 
 # Day 15 - October 15 - Ray Tracing: First Full Algorithm [Ray Tracing] (🧑‍🏫Lecture 10)
 <img src="./banners/ray-tracing2.png"/>
@@ -11,6 +40,7 @@ These are the topics we are going to cover in class each day. Links to [example 
 <img src="./whiteboard/day15/b.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
 
 <br/><br/>
+---
 ---
 
 
