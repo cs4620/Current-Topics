@@ -1,6 +1,59 @@
 # CS 4620/8626 - Fall 2027 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
+<br/><br/>
+---
+---
+
+
+# Day 18 - October 29 - Ray Tracing: Recursive Shadows and Reflections [Ray Tracing] (🧑‍🏫Lecture 12)
+
+Our code has a few bugs we need to resolve before moving on
+- We need to handle the case of a triangle being behind the camera. 
+- To avoid this, we need to ignore triangles where the collision on the plane is negative
+- There is a change that a ray we send out will be perfectly parallel to a triangle.
+- In this case, the collision calculations will break
+- We need to check for NaN values in our code and skip those triangles
+
+## New Idea: Triangle Winding
+- The winding of triangles matter. Since we take a cross product to find a normal, triangles have an inherent "direction"
+- Early games made triangle bidirections to save time and space
+- We need to make sure our triangles are wound counter-clockwise so they are industry standard.
+
+
+## New Idea: Shadows in Ray Tracing
+- Instead of blindly adding diffuse light to each fragment of a triangle, we should check to see if we are illiminated
+- We know we are illuminated by a light if we can send a ray from a collision point to that light without hitting anything else
+- We can easily do this if we refactor our code and make the ray tracing part agnostic to the origin and direction of the ray
+- Then, when we shade, we simply call this function and see if we hit anything before the light source
+- It's convenient to have a short function that actually just calculates distance to the nearest collision point so we don't actually do color calculations in the function.
+- If we cannot shoot a ray the distance to a light from a collision, then we ignore its diffuse contribution
+
+## New Idea: Self Occulision Bug
+- Because of how floating point numbers work, we might run into ourselves if we send out a shadow ray
+- One way to resolve this is to move the ray forward a tiny bit before sending out the shadow ray
+- Another is to flag the shadow ray calculation with the name of its owner so that if we find a collision with the owner, we ignore it
+
+## New Idea: Ray Tracing Reflections
+- When a surface is reflective, we can send out a reflective ray to see what color the collision point "sees"
+- The reflective ray between a surface with normal $n$ and a ray going direction $d$ is $r=d-2(d\cdot n)n$
+- Using this reflective ray, send out a recursive ray call and see what color is returned.
+- This can lead to an infinite loop if a ray bounces back and forth forever, so we add a parameter to the ray casting call that limits the number of recursive rays we can send out.
+
+<br/><br/>
+---
+---
+
+
+# Day 17 - October 27 (👟Sprint 6)
+
+Reviewed OBJ export and import
+
+<br/><br/>
+---
+---
+
+
 # Day 16 - October 22 - Ray Tracing: Multiple Triangle & OBJ Import [Ray Tracing] (🧑‍🏫Lecture 11)
 <img src="./banners/ray-tracing3.png"/>
 
@@ -29,7 +82,9 @@ These are the topics we are going to cover in class each day. Links to [example 
 
 ## 🏛️👩‍💻Module: [OBJ Export and Import](./modules/OBJ%20Export%20and%20Import.md)
 
-
+<br/><br/>
+---
+---
 
 
 # October 20 - No Class, University Holiday
