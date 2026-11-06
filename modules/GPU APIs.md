@@ -1,0 +1,11 @@
+# 💡New Idea: GPU Shader APIs
+- DirectX
+  - Pioneered by Microsoft. Popular on PCs and XBox
+  - Allows high or low-level usage
+- Vulkan
+  - Cross platform, low-level library
+- Metal
+  - Apple's low-level library
+- OpenGL
+  - OpenGL is officially deprecated, but is still used in academic
+  - High-level API

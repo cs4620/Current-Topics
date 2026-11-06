@@ -1,9 +1,43 @@
 # CS 4620/8626 - Fall 2027 - Topics
 These are the topics we are going to cover in class each day. Links to [example student videos ](https://www.youtube.com/playlist?list=PLH9qo0GKu2iQgPuzozltIuvLgEddxc43L) 
 
+
 <br/><br/>
 ---
 ---
+
+# Day 20 - November 5 - Introduction to Rasterizing [Rasterizing] (🧑‍🏫Lecture 13)
+
+
+## 🏛️👩‍💻Module: [GPU APIs](./modules/GPU%20APIs.md)
+
+## 🏛️👩‍💻Module: [GPU Shader Pipeline](./modules/GPU%20Shader%20Pipeline.md)
+
+## 🏛️👩‍💻Module: [GPU Shader Syntax](./modules/GPU%20Shader%20Syntax.md)
+
+
+## 💡New Idea: Setting the final color of a fragment
+- Set the final color of a fragment
+- This is a `vec4`
+
+
+<br/><br/>
+---
+---
+
+
+
+# Day 19 - November 3 (👟Sprint 8)
+
+## Topics briefly covered
+- Setting export presets in Blender
+- Moving rays slightly off objects when shooting shadow and reflection rays
+- Camera field of view
+
+<br/><br/>
+---
+---
+
 
 
 # Day 18 - October 29 - Ray Tracing: Recursive Shadows and Reflections [Ray Tracing] (🧑‍🏫Lecture 12)
@@ -45,7 +79,7 @@ Our code has a few bugs we need to resolve before moving on
 ---
 
 
-# Day 17 - October 27 (👟Sprint 6)
+# Day 17 - October 27 (👟Sprint 7)
 
 Reviewed OBJ export and import
 
