@@ -6,6 +6,104 @@ These are the topics we are going to cover in class each day. Links to [example 
 ---
 ---
 
+
+# Day 22 - November 12 - Rasterizing Outside the Clipping Box [Rasterizing] (🧑‍🏫Lecture 14)
+
+## 💡New Idea: Four matrices
+- We multiply each vertex in all triangles by four matrices
+  - Model to World (often called `model`)
+  - World to Camera (often called `view`)
+  - Projection
+  - To Clipping Space (this matrix is often combined with the projection matrix and simply called `projection`)
+
+## 💡New Idea: Model to World Matrix
+- Defines the position of the object in the world and its orientation
+
+
+## 💡New Idea: World to Camera Matrix
+- Moves and rotates objects so they are aligned with the camera
+
+## 💡New Idea: Projection Matrix
+- Projects points down to the image plane
+- Projection is found by simply dividing `x` and `y` by the distance from the camera (`z`).
+  - [*The Tribue Money*](https://en.wikipedia.org/wiki/The_Tribute_Money_(Masaccio)) is considered one of the first renaissance paintings to use perspective properly.
+- We don't want to multiply by $1/z$ in the projection matrix, because that means each vertex would needs its own projection matrix. Instead we use a trick and multiply the `w` entry by `z`. GPUs automatically divide the values in a vector by `w` if it is not 1.
+
+$$
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & nearPlane + farPlane & nearPlane\cdot farPlane \\
+0 & 0 & -1 & 0
+\end{bmatrix}
+$$
+- The bottom row has a $-1$. This set value of `w` to be $-z$. This leads to the division that creates perspective. The value is negated because we are looking down the negative z axis and we only see values with negative z values. If we didn't negate `z`, then we would incorrectly mirror everything in `x` and `y` when we die the division.
+- The third row has $(nearPlane + farPlane)$ and $nearPlane\cdot farPlane$. We need this because if we left that row, then `z` would be divided by `w`, which is $-z$, so all `z` values would be set to $-1$. Consider the result of the equation we have, which means the final value of `z` will be $(z\cdot (near+far)+near\cdot far)/-z$. Since we are forced to divide by `z` values by $-z$, this equation is a design choice that does the following:
+  - It keeps nearby values separate to prevent z fighting
+  - It keeps a depth of $-far$ at $-far$.
+  - It keeps a depth of $-near$ at $-near$.
+
+
+
+
+## 💡New Idea: To Clipping Space Matrix
+- Moves projections from the image plane into clipping space
+- This matrix requiries a `top` and `right` variable. These each store the distance from the center of the clipping plane to the top of the clipping plane and right of the clipping plane, respectively. (Note that it is only the distance from the center, not the complete distance).
+- We can calculate `top` using some triganometry. $top=near\cdot tan(radians/2)$ where $randians$ is the number of radians in the full field of view (FOV).
+- `right` is easily calculated by multiplying `top` by the aspect ratio of the image plane.
+$$
+\begin{bmatrix}
+near/right & 0 & 0 & 0 \\
+0 & near/top & 0 & 0 \\
+0 & 0 & -2/(farPlane-nearPlane) & -(farPlane+nearPlane)/(farPlane-nearPlane) \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
+- Explained
+  - In the top row, we multiply the x value of the projected vertex by $near/right$. This makes the furthest right vertices that we can see map to $1$. Consider a point at $(right, ?, near)$. After the projection matrix, the `x` would be $right/near$. Multiplying that by $near/right$ set that max value to be $1$, which matches clipping space
+  - A similar calculation is used for the second row with $near/top$.
+  - The third row has two jobs. It has to invert numbers since in clipping space positive values are further away but in camera space negative values are further away. This equation maps depth values from $[-near, -far]$ to $[-1, 1]$. 
+
+## 💡New Idea: Adding vertex uvs and normal
+- We can add uv and normal attributes to each vector
+- We create `out` variables in our vertex shader for things we pass to the fragment shader
+- We create `in` variable in our fragment shader for everything the vertex shader passes us
+
+
+
+
+
+
+
+<img src="./whiteboard/day22/a.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day22/b.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day22/c.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day22/d.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+
+
+<br/><br/>
+---
+---
+
+# Day 21 - November 10 (👟Sprint 9)
+
+## Topics briefly covered
+- Remember to post images in your self assessments
+- Remember to review the course policies about GenAI
+- How to move the camera in a ray tracer
+  - Create a matrix class with a multiple by vector function
+  - Create a matrix that combines the positional offset of the camera and a change of basis for its heading
+  - Multiply that matrix by each vector you import and then render against those points
+
+<img src="./whiteboard/day21/a.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day21/b.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+
+
+<br/><br/>
+---
+---
+
+
 # Day 20 - November 5 - Introduction to Rasterizing [Rasterizing] (🧑‍🏫Lecture 13)
 
 
