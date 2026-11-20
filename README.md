@@ -6,8 +6,74 @@ These are the topics we are going to cover in class each day. Links to [example 
 ---
 ---
 
+# Day 24 - November 19 - Rasterizing Multiple Objects and Navigation [Rasterizing] (🧑‍🏫Lecture 15)
 
-# Day 22 - November 12 - Rasterizing Outside the Clipping Box [Rasterizing] (🧑‍🏫Lecture 14)
+
+## 💡New Idea: Moving shaders into files
+- We are using `glsl` format for OpenGL
+- There are other shader languages, but they all have common themes
+
+## 💡New Idea: Rendering multiple objects
+- Each object needs a modelToWorld Matrix
+- Each object needs an attribute and data buffer
+- Each object needs to have a draw call in the event loop
+
+## 💡New Idea: Rotating the camera
+- Move keybindings to control a camera offset
+- Add mouse bindings to move the camera angle with the mouse
+- In order to calculate the camera matrix, we need to multiple the translation and rotational matrices together
+- The resulting matrix:
+  
+$$
+\begin{bmatrix}
+cosine(\theta) & 0 & -sine(\theta) & -(cosine(\theta)\cdot dx-sine(\theta)\cdot dz)\\
+0 & 1 & 0 & 0 \\
+sine(\theta) & 0 & cosine(\theta) & -(sine(\theta)\cdot dx + cosine(\theta)\cdot dz) \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
+
+## 💡New Idea: Moving the camera
+- When the camera rotates, the direction the keys move the camera changes
+- We maintain a `right` vector and a `forward` vector
+- `right` = $cosine(\theta)-sine(\theta)$
+- `forward` = $-(sine(\theta) + cosine(\theta))$
+  - `forward` is negated because we look down the negative z axis.
+- Changing `dx` and `dz` by these values will move the camera properly.
+
+
+
+
+
+
+
+
+
+
+<img src="./whiteboard/day24/a.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+<img src="./whiteboard/day24/b.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+
+
+
+<br/><br/>
+---
+---
+
+# Day 23 - November 17 (👟Sprint 10)
+
+## Topics briefly covered
+- Remember to add an offset when sending shadow and reflection rays
+
+
+<img src="./whiteboard/day23/a.jpg" alt="Description" style="max-width: 300px; max-height: 300px;">
+
+
+<br/><br/>
+---
+---
+
+
+# Day 22 - November 12 - Rasterizing Outside the Clipping Cube [Rasterizing] (🧑‍🏫Lecture 14)
 
 ## 💡New Idea: Four matrices
 - We multiply each vertex in all triangles by four matrices
